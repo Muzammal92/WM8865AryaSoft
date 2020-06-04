@@ -1,0 +1,328 @@
+
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-touch-icon-114x114.png">
+    <link rel="icon" type="image/png" href="img/icons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/icons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="img/icons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="img/icons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="img/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="mstile-144x144.html">
+    <meta name="theme-color" content="#ffffff">
+    <!-- SEARCH -->
+    <meta name="author" content="Advanced Research Group Co.,LTD.">
+    <meta name="description" content="ARYASOFT was set up in the year 2000 as a business unit of Advanced Research Group Co., Ltd. (ARG). It focuses its capabilities on software and application development to support businesses’ growing demand for intelligent tools in the digital economy. ">
+    <title>ARYASOFT - Software and Application Development</title>
+    <link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="screen" charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="plugins/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/arsoft.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114285518-1"></script>
+<!--Portfolio-->
+<script type="text/javascript" src="js/jssor.core.js"></script>
+<script type="text/javascript" src="js/jssor.utils.js"></script>
+<script type="text/javascript" src="js/jssor.slider.js"></script>
+<script>
+        jssor_slider1_starter = function (containerId) {
+            var options = {
+                $AutoPlay: true,
+
+                $PauseOnHover: true,                               //[Optional] Whether to pause when mouse over if a slideshow is auto playing, default value is false
+
+                $ArrowKeyNavigation: true,                          //Allows arrow key to navigate or not
+                $SlideWidth: 600,                                   //[Optional] Width of every slide in pixels, the default is width of 'slides' container
+                //$SlideHeight: 300,                                  //[Optional] Height of every slide in pixels, the default is width of 'slides' container
+                $SlideSpacing: 0,                                   //Space between each slide in pixels
+                $DisplayPieces: 2,                                  //Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $ParkingPosition: 100,                                //The offset position to park slide (this options applys only when slideshow disabled).
+
+                $ArrowNavigatorOptions: {                       //[Optional] Options to specify and enable arrow navigator or not
+                    $Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 2,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+                }
+            };
+
+            var jssor_slider1 = new $JssorSlider$(containerId, options);
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizes
+            function ScaleSlider() {
+                var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
+                if (parentWidth)
+                    jssor_slider1.$SetScaleWidth(Math.min(parentWidth, 800));
+                else
+                    $JssorUtils$.$Delay(ScaleSlider, 30);
+            }
+
+            ScaleSlider();
+            $JssorUtils$.$AddEvent(window, "load", ScaleSlider);
+
+
+            if (!navigator.userAgent.match(/(iPhone|iPod|iPad|BlackBerry|IEMobile)/)) {
+                $JssorUtils$.$OnWindowResize(window, ScaleSlider);
+            }
+
+            //if (navigator.userAgent.match(/(iPhone|iPod|iPad)/)) {
+            //    $JssorUtils$.$AddEvent(window, "orientationchange", ScaleSlider);
+            //}
+            //responsive code end
+        };
+    </script>
+<!--/Portfolio-->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114285518-1');
+</script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-custom-light" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href=""></a></div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-top-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="index.html"><i class="material-icons"></i> Home </a></li>
+                    <li><a href="asale.html"><i class="material-icons"></i> ASALE </a></li>
+                    <li><a href="aservice.html"><i class="material-icons"></i> ASERVICE </a></li>
+                    <li><a href="about.html"><i class="material-icons"></i> About us </a></li>
+                    <li><a href="contact.html"><i class="material-icons"></i> Contact us </a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right hidden-md hidden-sm hidden-xs">
+                    <li><img class="padding" src="img/nav-logo-cmmi.png"></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- container -->
+    </nav>
+
+    <div id="barba-wrapper">
+        <div class="barba-container">
+            <div id="index" class="index-alt">
+                <div id="full-width-carousel" class="carousel slide">
+                    <!-- Indicators -->
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+
+                        <div class="item active">
+                            <div class="fill" style="background-image:url('img/bgs/slideimg-arsoft.jpg')"></div>
+                            <div class="carousel-caption">
+                                <div class="text">
+                                    <h1 class="headline-text">Software and Application Development</h1>
+                                    <p class="subheading-text hidden-xs">ARYASOFT focuses on software and application development to support businesses’ growing in the digital economy.</p>
+                                    <div class="buttons-container"><a href="about.html" class="btn btn-lg btn-primary btn-round btn-main-cta">View company profile </a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="fill" style="background-image:url('img/bgs/slideimg-asale.jpg')"></div>
+                            <div class="carousel-caption">
+                                <div class="text">
+                                    <img src="img/asale-logo-white-shadow.png" class="applogo" alt="ASALE">
+                                    <p class="slogan-text">For Better and More Effective Sales Management</p>
+                                    <p class="bullet-text hidden-xs">
+                                        <span class="text"><i class="fa fa-circle bullet"></i>Scheduling and Planning</span>
+                                        <span class="text"><i class="fa fa-circle bullet"></i>Workflow Management</span>
+                                        <span class="text"><i class="fa fa-circle bullet"></i>Sales Performance Report</span>
+                                        <span class="text"><i class="fa fa-circle bullet"></i>Opportunity & Trend Report</span>
+                                        <span class="text"><i class="fa fa-circle bullet"></i>Product & Cost Management</span>
+                                    </p>
+                                    <div class="buttons-container"><a href="asale.html" class="btn btn-bordered btn-lg btn-round btn-default">Read more </a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="fill" style="background-image:url('img/bgs/slideimg-aservice.jpg')"></div>
+                            <div class="carousel-caption">
+                                <div class="text">
+                                    <img src="img/aservice-logo-white-shadow.png" class="applogo" alt="ASERVICE">
+                                    <p class="slogan-text">An Effective Tool to Ensure Service Excellence</p>
+                                    <p class="bullet-text hidden-xs">
+                                        <span class="text"><i class="fa fa-circle bullet"></i>Customer Management</span>
+                                        <span class="text"><i class="fa fa-circle bullet"></i>Service Tracking on Map</span>
+                                        <span class="text"><i class="fa fa-circle bullet"></i>Service Job Management</span>
+                                        <span class="text"><i class="fa fa-circle bullet"></i>Scheduling and Planning</span>
+                                        <span class="text"><i class="fa fa-circle bullet"></i>Service Job Performance Reports</span>
+                                    </p>
+                                    <div class="buttons-container"><a href="aservice.html" class="btn btn-bordered btn-lg btn-round btn-default">Read more </a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="fill" style="background-image:url('img/bgs/slideimg-hotsoft.jpg')"></div>
+                            <div class="carousel-caption">
+                                <div class="text">
+                                    <img src="img/hotsoft-logo-white-shadow.png" class="applogo" alt="HotSoft">
+                                    <p class="slogan-text">The Complete Property Management System</p>
+                                    <p class="bullet-text hidden-xs">
+                                        <span class="text"><i class="fa fa-circle bullet"></i>Hotel Front Office</span>
+                                        <span class="text"><i class="fa fa-circle bullet"></i>Hotel Back Office</span>
+                                        <span class="text"><i class="fa fa-circle bullet"></i>Sales & Marketing</span>
+                                        <span class="text"><i class="fa fa-circle bullet"></i>Hotel Group & Chain</span>
+                                        <span class="text"><i class="fa fa-circle bullet"></i>Conference & Function Room</span>
+                                    </p>
+                                    <div class="buttons-container"><a href="hotsoft.html" class="btn btn-bordered btn-lg btn-round btn-default">Read more </a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#full-width-carousel" data-slide="prev"><span class="icon-prev"></span> </a>
+                    <a class="right carousel-control" href="#full-width-carousel" data-slide="next"><span class="icon-next"></span></a>
+                </div>
+                <section id="portfolio-showcase">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 feature-item">
+                                <div class="img">
+                                <!-- Jssor Slider Begin -->
+                                <!-- You can move inline styles to css file or css block. -->
+                                    <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 800px; height: 300px; overflow: hidden;">
+                                    <!-- Slides Container -->
+                                    <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 800px; height: 300px; overflow: hidden;">
+                                        <div><img u="image" src="img/photography/008.jpg" /></div>
+                                        <div><img u="image" src="img/photography/002.jpg" /></div>
+                                        <div><img u="image" src="img/photography/004.jpg" /></div>
+                                        <div><img u="image" src="img/photography/009.jpg" /></div>
+                                    </div>
+
+                                <!-- Arrow Navigator Skin Begin -->
+                                <style>
+                                
+                                </style>
+                            <!-- Arrow Left -->
+                            <span u="arrowleft" class="jssora13l" style="width: 40px; height: 50px; top: 123px; left: 30px;"></span>
+                            <!-- Arrow Right -->
+                            <span u="arrowright" class="jssora13r" style="width: 40px; height: 50px; top: 123px; right: 30px"></span>
+                            <!-- Arrow Navigator Skin End -->
+                            <!-- Trigger -->
+                            <script>
+                            jssor_slider1_starter('slider1_container');
+                            </script>
+
+                                    </div>
+                            <!-- Jssor Slider End -->
+                            </div>
+                            </div>
+                            <div class="col-md-4 feature-item">
+                                <div class="text">
+                                    <h4>COMMART THAILAND 2018 <br> DIGITAL CONNECT</h4>
+                                    <p class="lead">Thank you for visiting our software on 22-24 June. And with our software, your business will succeed in dealing with every solution. See you next time.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container -->
+                </section>
+                <!-- carousel -->
+                <section id="horizontal-features">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 feature-item">
+                                <div class="image"><img src="img/feature-ic-web.png" alt=""></div>
+                                <div class="text">
+                                    <h4>Web Application Development</h4>
+                                    <p class="lead">We provide web application development, i.e. Windows, UNIX using most popular databases.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 feature-item">
+                                <div class="image"><img src="img/feature-ic-mobile.png" alt=""></div>
+                                <div class="text">
+                                    <h4>Mobile Application Development</h4>
+                                    <p class="lead">We provide mobile application development on well-known operating systems, i.e. iOS, Android.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 feature-item">
+                                <div class="image"><img src="img/feature-ic-track.png" alt=""></div>
+                                <div class="text">
+                                    <h4>Tracking & Management Tool</h4>
+                                    <p class="lead">In today’s highly competitive and speedy environment, You’ll probably need to implement a win-loss analysis process.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container -->
+                </section>
+            </div>
+        </div>
+    </div>
+    <footer id="main-footer">
+        <div class="container menu-container">
+            <div class="row">
+                <div class="col-sm-8 col-xs-12">
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-6 footer-menu">
+                            <h3><span>Menu</span></h3>
+                            <ul class="unstyled">
+                                <li><a href="index-2.html"><i class="material-icons"></i> Home </a></li>
+                                <li><a href="about.html"><i class="material-icons"></i> About us </a></li>
+                                <li><a href="contact.html"><i class="material-icons"></i> Contact us </a></li>
+                            </ul>
+                        </div>
+                        <!-- footer menu -->
+                        <div class="col-sm-4 col-xs-6 footer-menu">
+                            <h3><span>Products</span></h3>
+                            <ul class="unstyled">
+                                <li><a href="asale.html"><i class="material-icons"></i> ASALE </a></li>
+                                <li><a href="aservice.html"><i class="material-icons"></i> ASERVICE </a></li>
+                            </ul>
+                        </div>
+                        <!-- footer menu -->
+                        <div class="col-sm-4 hidden-xs footer-menu">
+                            <h3><span>Contact</span></h3>
+                            <ul class="unstyled">
+                                <li><a href="#"><img src="img/foot-ic-phone.png" alt="">&nbsp;&nbsp; +92344768348</a></li>
+                                <li><a href="#"><img src="img/foot-ic-fax.png" alt="">&nbsp;&nbsp; +92344768348</a></li>
+                                <li><a href="mailto:aryasoft@arya.com"><img src="img/foot-ic-email.png" alt="">&nbsp;&nbsp; aryasoft@arya.com </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 hidden-xs">
+                    <div class="footer-img">
+                        <div class="row">
+                            <div class="col-md-12 spacing2"><img src="img/logo-cmmi-mini.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="copyright-footer">
+                        <div class="row">
+                            <div class="col-md-12 spacing">Copyright &copy; 2020 ARYASOFT. All right reserved.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../code.jquery.com/jquery-2.2.4.min.js"></script>
+    <!-- build:js scripts/vendor.js -->
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugins/slick/slick.min.js"></script>
+    <script src="plugins/countUp/dist/countUp.js"></script>
+    <script src="plugins/lightbox/dist/ekko-lightbox.min.js"></script>
+    <script src="plugins/isotope/isotope.pkgd.js"></script>
+    <script src="plugins/barba/dist/barba.min.js"></script>
+    <script src="plugins/aos/aos.js"></script>
+    <!-- endbuild -->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
